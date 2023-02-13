@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 10px */
+}
+
+body {
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ==================== NAVBAR ==================== */
+
+.navbar {
+  height: 10rem;
+  background-color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  flex: 20%;
+  margin-left: 10%;
+  text-align: left;
+}
+
+.logo h1 {
+  color: #233761;
+  font-family: 'Lobster', cursive;
+  font-size: 3.4rem;
+}
+
+.menu {
+  padding: 2rem;
+  text-align: right;
+  flex: 70%;
+}
+
+.menu a {
+  padding: 2rem 1.6rem;
+  color: #233761;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.menu a:hover {
+  color: #f24824;
+  border-top: 0.4rem solid #233761;
+}
+
+#button {
+  padding: 1rem 2.5rem;
+  margin-right: 10%;
+  margin-left: 5%;
+  color: white;
+  background-color: #233761;
+  border-radius: 0.5rem;
+}
+
+#button:hover {
+  background: #f24824;
+  border: none;
+}
+
+/* ==================== HEADER ==================== */
+
+.header {
+  background: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+}
+
+.headline {
+  margin-left: 10%;
+  flex: 40%;
+}
+
+.headline h2 {
+  padding: 0;
+  margin: 0;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #233761;
+}
+
+.headline p {
+  color: gray;
+  text-align: left;
+}
+
+.contact-btn {
+  display: inline-block;
+  padding: 2rem;
+  color: white;
+  background: #f24824;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 0.5rem;
+}
+
+.contact-btn:hover {
+  background: #233761;
+}
+
+.img-headline {
+  margin-right: 10%;
+  text-align: center;
+  flex: 40%;
+}
+
+.img-headline img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* ==================== SECTION ==================== */
+
+section {
+  display: inline-block;
+  padding: 5%;
+  margin: 8rem 5% 0 5%;
+  text-align: center;
+}
+
+section h2 {
+  width: 100%;
+  font-size: 5rem;
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  color: #233761;
+}
+
+.services {
+  display: inline-block;
+  margin-top: 5%;
+}
+
+.card {
+  display: inline-block;
+  width: 30%;
+  padding: 2rem;
+  margin: 1%;
+  border: 0.1rem solid #f24824;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.hidden-text {
+  display: none;
+}
+
+.card:hover {
+  padding: 4rem;
+  color: white;
+  background: #f24824;
+}
+
+.card:hover img {
+  display: none;
+}
+
+.card:hover .card-text {
+  display: none;
+}
+
+.card:hover .hidden-text {
+  display: block;
+}
+
+/* ==================== FOOTER =============== */
+
+footer {
+  margin-top: 10rem;
+  height: 40rem;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(180deg, #233761, #130a3d, #090422);
+  border-top: 0.5rem solid #f24824;
+}
+
+.footer-logo {
+  padding: 10rem;
+}
+
+.agency {
+  font-family: 'Lobster', cursive;
+  font-size: 3.4rem;
+}
+
+b {
+  color: white;
+}
+
+.whats {
+  width: 10rem;
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+}
